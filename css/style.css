@@ -1,0 +1,123 @@
+@charset "UTF-8";
+h1{
+    text-align: center;
+    color:  rgb(0, 70, 70);
+}
+h2{
+    text-align: center;
+    color: rgb(0, 70, 70);
+    margin-left: 35px;
+}
+body {
+    background: linear-gradient(#33CCCC,#1D7373);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    max-width: 1350px;
+    text-align: center;
+ }
+ .post-wrap {
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+ }
+ .post-wrap ul{
+    margin: 0 ;
+ }
+ .header-page__li{
+    list-style-type: none;
+    text-align: center;
+ }
+ .header-page__link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 8px 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    position: relative;
+    transition: padding .4s;
+ }
+  .header-page__link:hover::before {
+    opacity: 1;
+  }
+  .bio{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: teal;
+  } 
+ figure {
+    display: inline-block; /* Выстраиваем по горизонтали */
+    padding: 10px; /* Поля */
+    margin: 0 1em 0 0; /* Отступ справа */
+    vertical-align: top; /* Выравниваем по верхнему краю */
+   }
+   figcaption { 
+    text-align: center; /* Выравниваем по центру */
+   }
+   figure.right figcaption {
+    float: right; /* Добавляем текст справа */
+    padding: 5px; /* Поля вокруг текста */
+   }
+   img { 
+    width: 250px;
+    height: 250px;
+ }
+ .nav{
+     display: flex;
+     background-color: teal;
+     text-align: left;
+ }
+ .roz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.post-item {
+    padding: 15px;
+    cursor: pointer;
+ }
+ .post-item * {
+    transition: .3s linear;
+ }
+ .item-body {
+    color: #F5E2CD;
+    font-size: 14px;
+ }
+ .item-body h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    transition-delay: .05s;
+ }
+ .item-body p {
+    transition-delay: .1s;
+ }
+ .item-footer {
+    padding-top: 15px;
+ }
+ .footer{
+     text-align: center;
+     padding: 40px 0;
+ }
+ @media only screen and (max-width: 940px) {
+
+   .post-wrap {
+     display: block;
+     margin: auto;
+     text-align: center;
+     text-align-all: center;
+   }
+ 
+   .post-wrap li {
+     font: bold 15px Comic Sans MS;
+     margin: auto;
+   }
+ 
+   .post-wrap a {
+     color: white;
+   }
+ }
+ 
